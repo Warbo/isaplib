@@ -1,6 +1,6 @@
 # Targets: 
 
-ML_BASIC_SRC_FILES = $(shell find basics/ General/ project/ | grep ".ML$$")
+ML_BASIC_SRC_FILES = $(shell find basics/ project/ | grep ".ML$$")
 ML_NAMES_SRC_FILES = $(shell find names/ | grep ".ML$$")
 ML_MAPS_SRC_FILES = $(shell find maps/ | grep ".ML$$")
 ML_GRAPH_SRC_FILES = $(shell find graph/ | grep ".ML$$")
